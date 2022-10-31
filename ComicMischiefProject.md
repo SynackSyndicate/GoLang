@@ -37,3 +37,55 @@ What this prints out to is
 <p>
   Mr. GoToSleep written by Tracy Hatchet drawn by Jewel Tampson published by DizzyBooks Publishing Inc. 1997 page 14 6.5 Grade
 </p>
+
+## Additional coding
+
+This code is an additional layer within the func main in Go. This shows how easy it is to compile multiple executions all in one package. 
+```
+package main
+
+import "fmt"
+
+func main () {
+  
+var publisher, writer, artist, title string
+
+title = "Mr. GoToSleep"
+writer = "Tracy Hatchet"
+artist = "Jewel Tampson"
+publisher = "DizzyBooks Publishing Inc."
+
+var year uint 
+var pageNumber uint
+
+year = 1997
+pageNumber = 14
+
+var grade float32
+
+grade = 6.5
+
+fmt.Println(title, "written by", writer, "drawn by", artist, "published by", publisher, year, "page", pageNumber, grade, "grade")
+
+fmt.Println()
+
+// Assigns will go here
+title = "Epic Vol. 1"
+writer = "Ryan N. Shawn"
+artist = "Phoebe Paperclips"
+publisher = "DizzyBooks Publishing Inc."
+year = 2013
+pageNumber = 160
+grade = 9.0
+
+fmt.Println(title, "written by", writer, "drawn by", artist, "published by", publisher, year, "page", pageNumber, grade, "grade")
+}
+```
+This prints out
+  ```
+  Mr. GoToSleep written by Tracy Hatchet drawn by Jewel Tampson published by DizzyBooks Publishing Inc. 1997 page 14 6.5 grade
+
+  Epic Vol. 1 written by Ryan N. Shawn drawn by Phoebe Paperclips published by DizzyBooks Publishing Inc. 2013 page 160 9 grade
+```
+</br>
+As you can see you can build multiple executions all in one main function.  
