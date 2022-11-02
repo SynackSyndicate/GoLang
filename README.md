@@ -4,6 +4,7 @@ Here you'll find some of my notes, scripts, and learning progression of Golang!
 </br>
 ## Resources
 Codeacademy </br>
+Gophercises </br>
 YouTube </br>
 </br>
 
