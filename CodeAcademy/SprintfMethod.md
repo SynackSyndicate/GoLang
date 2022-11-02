@@ -4,7 +4,8 @@ Interpolating a string, without **printing** it, we can use fmt.Sprintf(). Just 
 </br>
 </br>
 For example:
-```
+</br>
+```go
 correctAns := "V was here"
 whoWasHere := fmt.Springf("What does this graffiti say? %v", whoWasHere)
 
@@ -16,7 +17,7 @@ Assign to wish the value of calling fmt.Sprintf() with the values template and p
 
 wish should then contain the interpolated string "I wish I had a puppy.".
 
-```
+```go
 package main
 
 import "fmt"
