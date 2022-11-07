@@ -6,7 +6,7 @@ and finalize the code with fmt.Println(). This project, Comic Mischief, incorpor
   </p>
 
 ## The Code
-```
+```go
 package main
 
 import "fmt"
@@ -41,7 +41,7 @@ What this prints out to is
 ## Additional coding
 
 This code is an additional layer within the func main in Go. This shows how easy it is to compile multiple executions all in one package. 
-```
+```go
 package main
 
 import "fmt"
